@@ -1,7 +1,7 @@
 div.title {
     text-align: center;
     font-size: 4vw;
-    background-color: #FFE6F2;
+    background-color: #000000;
     margin-left: 30%;
     margin-right: 30%;
     border-radius: 30%;
@@ -20,7 +20,7 @@ div.back{
     padding: .25em;
 }
 div.group {
-    background-color:#FFE6F2;
+    background-color:black;
     text-align: left;
     font-family: monospace;
     margin-left: 5vw;
@@ -36,7 +36,7 @@ div.links {
 div.linkstitle {
     display:inline-block;
     font-weight: bolder;
-    background-color:#ffffff;
+    background-color:#173e20;
     border-radius: 30%;
     margin-left: 30%;
     margin-right: 30%;
@@ -45,7 +45,7 @@ div.linkstitle {
     padding-bottom: .25em;
     padding-left: .25em;
     padding-right: .25em;
-    color: rgb(97, 119, 94);
+    color: rgb(158, 206, 153);
 }
 
 img.hanging_plant_1 {
@@ -66,15 +66,16 @@ img.hanging_sparkle {
     transform: translate(-2.5vw, 8vh)
 }
 
-div.background {
-    background-color: white;
-    background-image: url('/images/backgrounds/pink_roses_fern.gif');
+.background {
+    background-color: black;
+    background-position: 50% 50%;
+    background-image: url('/images/backgrounds/black-background-with-starry-sky-vector-seamless-pattern_643070-1630.avif');
     background-attachment: fixed;
     min-height: 100%;
 }
 
 div.single_link {
-    background-color: white;
+    background-color: rgb(249, 247, 255);
     background-attachment: fixed;
     text-align: left;
     text-transform: 5vw;
@@ -92,10 +93,10 @@ div.single_link {
 
 div.link_subtitle {
     font-weight: bold;
-    color: rgb(97, 119, 94);
+    color: rgb(158, 206, 153);
     font-size: 3vmax;
     margin-bottom: 2vh;
-    background-color: white;
+    background-color: #173e20;
     display: inline-block;
     border-radius: 2vw;
     padding-left: .5em;

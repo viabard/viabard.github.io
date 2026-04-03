@@ -1,6 +1,6 @@
 class Intersection {
     // a rippple starting at an intersection 
-    constructor(x, y, size=1000, speed=10, starting_transparency=1.0, color='rgba(0, 0, 0)', stroke_weight=200) {
+    constructor(x, y, size=1000, speed=10, starting_transparency=1, color='rgba(0, 0, 0)', stroke_weight=200) {
         this.x = x;
         this.y = y;
         this.max_size = size;

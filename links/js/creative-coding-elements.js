@@ -1,23 +1,31 @@
 const main = document.querySelector('creative-coding');
 
+const prefix = 'https://joshschaaf.com/creative-coding/'
 
 var creative_coding_dict = {
-    'Stars': 'https://joshschaaf.com/creative-coding/stars',
-    'Bubbles': 'https://joshschaaf.com/creative-coding/bubbles',
-    'Spaghetti': 'https://joshschaaf.com/creative-coding/spaghetti',
-    'Piet Mondrian': 'https://joshschaaf.com/creative-coding/mondrian',
-    'Light and Dark': 'https://joshschaaf.com/creative-coding/light-and-dark',
-    'Grid': 'https://joshschaaf.com/creative-coding/grid',
-    '10 Minute(ish) Sketch': 'https://joshschaaf.com/creative-coding/ten-minutes',
-    'Glitch': 'https://joshschaaf.com/creative-coding/glitch',
-    'Intersections': 'https://joshschaaf.com/creative-coding/intersections',
-    'Debug-View': 'https://joshschaaf.com/creative-coding/debug-view'
+    'Stars': prefix + 'stars',
+    'Bubbles': prefix + 'bubbles',
+    'Spaghetti': prefix + 'spaghetti',
+    'Piet Mondrian': prefix + 'mondrian',
+    'Light and Dark': prefix + 'light-and-dark',
+    'Grid': prefix + 'grid',
+    '10 Minute(ish) Sketch': prefix + 'ten-minutes',
+    'Glitch': prefix + 'glitch',
+    'Intersections': prefix + 'intersections',
+    'Debug-View': prefix + 'debug-view',
+    'Spinny Thing': prefix + 'spinny-thing',
+    'Spinny Loop': prefix + 'spinny-loop',
+    'Horizontal & Vertical': prefix + 'genuary-1-2025',
+    'Layers': prefix + 'genuary-2-2025',
+    'Forty-Two': prefix + 'genuary-3-2025',
+    'Black on Black': prefix + 'genuary-4-2025',
+    'Isometric': prefix + 'genuary-5-2025'
 };
 
 var html_string = ``;
 
 Object.keys(creative_coding_dict).forEach(key => {
-    html_string += `<div class='single_link'>${key} - <a href='${creative_coding_dict[key]}' rel="noopener noreferrer">${creative_coding_dict[key]}</a></div><br>`;
+    html_string += `<div class='single_link'>${String(key)} - <a href='${creative_coding_dict[String(key)]}' rel="noopener noreferrer">${creative_coding_dict[String(key)]}</a></div><br>`;
 });
 
 

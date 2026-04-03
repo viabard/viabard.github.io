@@ -6,10 +6,10 @@ let b = 0;
 function setup() {
     createCanvas(windowWidth, windowHeight);
 
-    s.push(new PointString(windowWidth/2, windowHeight/2, 100, 0, 0.85, 40, false, true));
-    s.push(new PointString(windowWidth/2, windowHeight/2, 200, 0, 0.85, 40, false, true));
-    s.push(new PointString(windowWidth/2, windowHeight/2, 400, 0, 0.85, 40, false, true));
-    s.push(new PointString(windowWidth/2, windowHeight/2, 200, 0, 0.85, 40, false, true));
+//    s.push(new PointString(windowWidth/2, windowHeight/2, 100, 0, 0.85, 40, false, true));
+//    s.push(new PointString(windowWidth/2, windowHeight/2, 200, 0, 0.85, 40, false, true));
+    s.push(new PointString(windowWidth/2, windowHeight/2, 400, 0, 0.85, 70, false, true));
+    s.push(new PointString(windowWidth/2, windowHeight/2, 100, 0, 0.8, 80, false, true));
 
 }
 
