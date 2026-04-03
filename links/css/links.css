@@ -1,0 +1,114 @@
+div.title {
+    text-align: center;
+    font-size: 4vw;
+    background-color: #FFE6F2;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-image:  url('/images/backgrounds/fast_white_sparkles.gif'), url('/images/backgrounds/light_pink_green_leaves.gif');
+    background-position: 0;
+}
+div.back{
+    text-align: left;
+    position: fixed;
+    font-size: 3vmax;
+    background-color:#ffe6f27a;
+    border-radius: 30%;
+    padding: .25em;
+}
+div.group {
+    background-color:#FFE6F2;
+    text-align: left;
+    font-family: monospace;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 2vw;
+    margin-bottom: 5vh;
+    background-size: 200px 200px;
+}
+div.links {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+div.linkstitle {
+    display:inline-block;
+    font-weight: bolder;
+    background-color:#ffffff;
+    border-radius: 30%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 30%;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    padding-left: .25em;
+    padding-right: .25em;
+    color: rgb(97, 119, 94);
+}
+
+img.hanging_plant_1 {
+    position: fixed;
+    width: 7vw;
+    transform: translate(80vw, -10px);
+}
+
+img.hanging_plant_2 {
+    position: fixed;
+    width: 7vw;
+    transform: translate(1vw, -20px)
+}
+
+img.hanging_sparkle {
+    position: fixed;
+    width: 15vw;
+    transform: translate(-2.5vw, 8vh)
+}
+
+div.background {
+    background-color: white;
+    background-image: url('/images/backgrounds/pink_roses_fern.gif');
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+div.single_link {
+    background-color: white;
+    background-attachment: fixed;
+    text-align: left;
+    text-transform: 5vw;
+    font-family: monospace;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 2vw;
+    margin-bottom: 4vh;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    display: inline-block;
+}
+
+div.link_subtitle {
+    font-weight: bold;
+    color: rgb(97, 119, 94);
+    font-size: 3vmax;
+    margin-bottom: 2vh;
+    background-color: white;
+    display: inline-block;
+    border-radius: 2vw;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    margin-left: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+img.hanging_plant_3 {
+    position: fixed;
+    width: 14vw;
+    transform: translate(67vw, -30px);
+}
